@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    
+    <item
+        android:id="@+id/action_search"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_list"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="Recipe List"
+        />
+    <item
+        android:id="@+id/action_favorite"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_important"
+        android:title="Favorites"/>
+
+</menu>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="horizontal">
+
+    <com.actionbarsherlock.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:iconifiedByDefault="false"
+        android:queryHint="search"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher"
+        android:title="add item" />
+
+</LinearLayout>
